@@ -54,6 +54,12 @@ section {
     border-radius: 15px;
     margin: 5px 50px;
 }
+section ol {
+    margin: 0px 60px 50px 60px;
+}
+section ol li {
+    margin: 5px;
+}
 section article {
     display: flex;
     align-items: center;
