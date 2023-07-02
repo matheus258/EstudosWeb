@@ -6,25 +6,78 @@
 /* FONTE */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;1,100;1,200&display=swap');
 /* CLASS */
-.cor_vermelha {
-    color: #f00;
+.cor_h1 {
+    color: #DD3F6D;
     text-decoration: underline;
     width: 100;
 }
-#pai {
+.pai {
     background-color: rgb(193, 214, 255);
     display: inline-block;
     padding: 50px;
     border: 1px solid rgb(90, 90, 90);
+    margin-top: 100px;
 }
-#filho{
+.pai:first-child {
+    position: absolute;
+    top: 250px;
+    left: 500px;
+}
+.filho{
     height: 150px;
     width: 150px;
     background-color: blueviolet;
     border-radius: 100%;
 }
+#menu {
+    width: 100%;
+    height: 5em;
+    background-color: rgb(36, 36, 36);
+    color: aliceblue;
+    list-style: none;
+    position: fixed;
+    align-items: center;
+    display: flex;
+
+}
+#menu ul {
+    flex-direction: row;
+    display: flex;
+}
+#menu ul li {
+    flex-direction: row;
+    display: flex;
+    margin-left: 10px;
+    color: #7A9652;
+    font-size: 1.2em;
+    font-family: "Montserrat";
+
+}
+#menu ul li:hover{
+    color: #DD3F6D;
+    cursor: pointer;
+}
+#menu img {
+    width: 50px;
+    margin: 5px;
+}
+
+.logo_header{
+    margin-left: 40px;
+}
+.menu_navegation{
+    margin-right: 40px;
+}
+.header_texto{
+    color: #7A9652;
+    text-shadow: 0.5px 0.5px white;
+    font-size: large;
+}
 
 /* TAG */
+header nav {
+    justify-content: space-between;
+}
 h1 {
     font-family: "Montserrat";
 
