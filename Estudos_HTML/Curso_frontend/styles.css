@@ -35,18 +35,18 @@
     background-color: rgb(36, 36, 36);
     color: aliceblue;
     list-style: none;
-    position: fixed;
+    position: fixed; /* Display fixed faz com que a Head permaneça no topo mesmo movendo a página. */
     align-items: center;
     display: flex;
 
 }
 #menu ul {
     flex-direction: row;
-    display: flex;
+    display: inline-block;
 }
 #menu ul li {
     flex-direction: row;
-    display: flex;
+    display: inline-block;
     margin-left: 10px;
     color: #7A9652;
     font-size: 1.2em;
@@ -67,6 +67,7 @@
 }
 .menu_navegation{
     margin-right: 40px;
+    display: inline-block;
 }
 .header_texto{
     color: #7A9652;
@@ -83,6 +84,6 @@ h1 {
 
 }
 h2 {
-    background-color: aqua;
-    color: crimson;
+    background-color: #7A9652;
+    color: rgb(255, 255, 255);
 }
