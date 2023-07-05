@@ -1,13 +1,8 @@
+/* GERAIS */
 body {
     background-color: #000;
 }
 
-.bg_filmes {
-    background-image: url(assets/background.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-
-}
 header {
     padding: 50px;
     background: #000;
@@ -16,10 +11,40 @@ header {
         rgba(0, 0, 0, 0.69) 0%,
         rgba(0, 0, 0, 0) 100%
     );
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 2;
 }
 header img {
     width: 150px !important;
 }
+.btn-custom-white {
+    background-color: #fff;
+}
+
+.btn-custom-translucent{
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+.btn-custom-translucent:hover {
+    color: #fff;
+    opacity: 0.8;
+}
+.btn-custom-white:hover {
+    background-color: #fff;
+    opacity: 0.8;
+}
+
+/* LOGIN */
+
+.bg_filmes {
+    background-image: url(assets/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
 #caixa_login {
     background-color: rgba(0, 0, 0, 0.7);
     padding: 30px;
@@ -27,4 +52,45 @@ header img {
 }
 #caixa_login h1 {
     margin-bottom: 28px;
+}
+
+/* HOME */
+
+.menu_list {
+    list-style: none;
+    padding-left: 0;
+    padding-top: 7px;
+}
+
+.menu_list li {
+    display: inline-block;
+    margin-left: 15px;
+}
+.menu_list li a {
+    color: #fff;
+}
+
+#hero {
+    height: 800px;
+    background-image: url(assets/capa-filme.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+}
+#hero_infos {
+    padding: 0;
+    margin-top: 170px;
+    z-index: 3;
+    position: relative;
+}
+#hero_infos h1{
+    margin-bottom: 20px;
+}
+#hero_infos h1 img {
+    width: 35px;
+    margin-top: -10px;
+    margin-right: 10px;
 }
