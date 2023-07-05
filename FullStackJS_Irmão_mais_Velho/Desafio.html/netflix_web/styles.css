@@ -12,11 +12,19 @@ header {
     padding: 50px;
     background: #000;
     background: linear-gradient(
-        0deg,
+        180deg,
         rgba(0, 0, 0, 0.69) 0%,
         rgba(0, 0, 0, 0) 100%
     );
 }
 header img {
     width: 150px !important;
+}
+#caixa_login {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    margin-top: 150px;
+}
+#caixa_login h1 {
+    margin-bottom: 28px;
 }
