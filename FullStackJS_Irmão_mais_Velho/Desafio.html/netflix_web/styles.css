@@ -118,4 +118,66 @@ header img {
 
 .filme_lista{
     overflow-x: scroll;
+    list-style: none;
+    padding: 20px 0;
+    white-space: nowrap;
+    display: block;
+    border: 1px solid transparent;
+
+}
+/* Esconder barra lateral */
+.filme_lista::-webkit-scrollbar {
+    display: none;
+}
+.filme {
+    display: inline-block;
+    width: 250px;
+    margin-right: 10px;
+    border-radius: 3px;
+    overflow: auto;
+    border: 1px solid transparent;
+    overflow-y: hidden;
+}
+.filme:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    z-index: 999;
+    transform: 0.5s;
+    transition: 0.5s;
+}
+.filme:hover .filme_info{
+    transform: scale(1);
+    transition: 0.5s;
+}
+.filme:first-child{
+    margin-left: 70px;
+}
+.filme_info{
+    background-color: #171717;
+    padding: 10px;
+    height: 100px;
+    width: 100%;
+    transform: scale(0);
+}
+.filme_info .col-12:first-child {
+    margin-bottom: 20px;
+}
+.filme_info .col-12{
+    margin-top: 5px;
+    padding-left: 0;
+
+}
+.filme_info p {
+    color: #7E7B7B;
+    font-size: 12px;
+}
+.filme_info p text {
+    color: #fff;
+}
+section{
+    margin-bottom: -100px;
+    position: relative;
+}
+section:hover {
+    z-index: 9;
 }
