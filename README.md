@@ -1,5 +1,5 @@
 # EstudosWeb
-Estudos Web Com Italo
+Estudos Web com javascript.
 ----------
 
 - Base de estudos HTML, CSS, javaScript, Logica de programação.
