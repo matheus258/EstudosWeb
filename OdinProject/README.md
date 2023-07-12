@@ -1,5 +1,6 @@
 # EstudosWeb
-Estudos Web com javascript.
+Estudos Web com Javascript. <br>
+Estudos com TheOdinProject.
 ----------
 
 - Base de estudos Github e Git e seus comandos, HTML, CSS, javaScript, Logica de programação e React.js. 
