@@ -1,0 +1,20 @@
+.d-inline {
+    display: inline;
+    background-color: red;
+    color: white;
+}
+.d-block{
+    display: block;
+    height: 30px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}
+
+.d-inline-block{
+    display: inline-block;
+    height: 100px;
+    background-color: rgb(5, 255, 26);
+    color: black;
+    margin-top: 10px;
+}
