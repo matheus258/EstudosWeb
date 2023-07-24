@@ -5,6 +5,7 @@ Estudos com TheOdinProject.
 - Nesse diretorio contem os projetos ao qual é direcionado a introdução com TheOdinProject.
 
 - 01 Projeto de Receitas com HTML.
+- 02 Projeto de Landing page com HTML e CSS.
 <br>
 
 - Base de estudos Github e Git e seus comandos, HTML, CSS, javaScript, Logica de programação e React.js. 
