@@ -30,3 +30,20 @@ flex: 1;
     border: 4px solid #ffcc5c;
     flex: 1;
 }
+/* Mudando o valor da div selecionada para "flex: 2;", para aumentar tamanho em 2x das outras divs */
+.container div:nth-child(2) {
+    /* flex-grow: 2; */
+    /* flex-shrink: 1; */
+    flex: 2 1 auto;
+}
+.container-eixo {
+    display: flex; 
+    flex-direction: column;
+}
+.container-eixo div{
+    width: 100%;
+    background-color: #dbff39;
+    border: #49cf8c 4px solid;
+    height: 100px;
+    flex: 1 1 auto;
+}
