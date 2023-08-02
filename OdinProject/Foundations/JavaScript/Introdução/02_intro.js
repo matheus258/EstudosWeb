@@ -14,3 +14,13 @@ alert( NaN + 1 ); // NaN
 alert( 3 * NaN ); // NaN
 alert( "not a number" / 2 - 1 ); // NaN
 
+// Concat STRINGS
+
+const namep = 'Matheus';
+const sobrenome = 'Marques';
+
+console.log(`Hello, ${namep}`);
+console.log(`${namep} e ${sobrenome}`);
+
+// Funções de String
+
