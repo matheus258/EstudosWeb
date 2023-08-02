@@ -38,3 +38,8 @@ console.log(`${namep} e ${sobrenome}`);
     // replace
     let trocaLetra = nomeCompleto.replace("Marques", "Oliveira");
     console.log(`${trocaLetra}`);
+
+    // split
+    let frase = 'Alo tudo bom? Bom dia !'
+    let tags = frase.split(' '); // Transforma em array por separador
+    console.log(tags);
