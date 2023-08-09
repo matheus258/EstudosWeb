@@ -8,11 +8,4 @@
 
     console.log(typeof num, typeof num1, typeof num2);
 
-// String 
-    const name = 'José';
-    const sobreNome = 'Anderson';
 
-//Bolean
-// const 
-
-// Empty Values (Null, undefined)
