@@ -31,3 +31,19 @@ console.log('Depois do splice ',array);
 // slice - pega os valores passados
 let newArray = array.slice(0 , 3);
 console.log('newArray com slice ',newArray);
+
+// OBJETOS em js
+
+let xicara = {
+    cor: "Pink",
+    tamanho: "pequena",
+    preco: 15,
+    object: tipo = {
+        nome: "Xicara Maruel",
+        idade: 67,
+        sexo: "Unissex"
+    }
+    };
+
+console.log(xicara);
+
