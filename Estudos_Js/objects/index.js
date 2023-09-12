@@ -24,11 +24,23 @@ function getPrincipal(){
 let text = document.getElementById('principal');
 let turno = document.getElementsByClassName('secundario')[0];
 
+// Apaga os campos para onde é apontado.
 function apagar() {
 
     let exemplo = document.querySelector('#principal').innerHTML = '';
     let secExemplo = document.querySelectorAll('.secundario')[0].innerHTML = '';
     let terExemplo = document.querySelectorAll('.secundario')[1].innerHTML = '';
+
+}
+
+function backRed(){
+    let color = document.body.style.backgroundColor='red'
+}
+function backBlue(){
+    let color = document.body.style.backgroundColor='blue'
+}
+function backWhite(){
+    let color = document.body.style.backgroundColor='#fff'
 }
 
 
