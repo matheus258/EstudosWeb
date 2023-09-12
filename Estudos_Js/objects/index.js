@@ -24,5 +24,12 @@ function getPrincipal(){
 let text = document.getElementById('principal');
 let turno = document.getElementsByClassName('secundario')[0];
 
+function apagar() {
+
+    let exemplo = document.querySelector('#principal').innerHTML = '';
+    let secExemplo = document.querySelectorAll('.secundario')[0].innerHTML = '';
+    let terExemplo = document.querySelectorAll('.secundario')[1].innerHTML = '';
+}
+
 
 console.log(text, turno);
