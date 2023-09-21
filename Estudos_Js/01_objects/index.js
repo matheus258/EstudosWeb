@@ -32,7 +32,7 @@ function apagar() {
     let terExemplo = document.querySelectorAll('.secundario')[1].innerHTML = '';
 
 }
-
+// Muda Backgound do BODY;
 function backRed(){
     let color = document.body.style.backgroundColor='red'
 }
