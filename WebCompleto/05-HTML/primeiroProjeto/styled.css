@@ -3,6 +3,40 @@ body {
   color: #fff;
   font-size: large;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #54a0be;
+  margin: 0;
+
+}
+
+header {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 10px;
+  background-color: #141516;
+  margin: 0 !important;
+  color: #F95195;
+  height: 120px;
+}
+
+main {
+  padding: 20px;
+}
+
+main h1 {
+  color: #D33FE6;
+}
+
+.list-piratas {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.6em;
+  color: #33738d;
+
 }
 
 .img-piratas {
